@@ -8,7 +8,7 @@ L.Icon.Default.imagePath = 'css/images/';
 var initCenter = L.latLng(48.8579,2.3494);
 var initZoom = 13;
 
-var attribution = 'Routes computed using <a href="http://project-osrm.org/">OSRM</a>'
+var attribution = 'مسیرها توسط سرویس بهینه سازی مسیر اک تک محاسبه شذه اند</a>'
     + ' | '
     + '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors';
 if (api.description) {
