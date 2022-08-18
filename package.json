@@ -1,7 +1,7 @@
 {
   "name": "vroom-frontend",
   "version": "0.3.0",
-  "description": "Frontend demo for VROOM",
+  "description": "دموی سرویس بهینه سازی مسیر اک تک",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "./node_modules/.bin/beefy src/map.js --browserify ./node_modules/.bin/browserify --live",
