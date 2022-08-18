@@ -11,7 +11,7 @@ var fitControl = L.Control.extend({
     // Add reference to map.
     map.fitControl = this;
     this._div = L.DomUtil.create('div', 'custom-control icon-control fit-control');
-    this._div.title = 'Show all places';
+    this._div.title = 'نمایش همه مکان های انتخابی';
     this._div.onclick = function(e) {
       L.DomEvent.stopPropagation(e);
       map.fireEvent('fit');
