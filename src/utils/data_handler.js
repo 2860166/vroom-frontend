@@ -236,16 +236,16 @@ var _setStart = function(v) {
     }
   }
   idCell.setAttribute('class', 'delete-location');
-  idCell.title = 'Click to delete';
+  idCell.title = 'برای حذف کلیک کنید';
   idCell.onclick = remove;
 
   // Required when parsing json files with no start description.
   if (!v.startDescription) {
-    v.startDescription = 'Start';
+    v.startDescription = 'شروع';
   }
 
   var nameCell = row.insertCell(1);
-  nameCell.title = 'Click to center the map';
+  nameCell.title = 'تنظیم مجدد نقشه';
   nameCell.setAttribute('class', 'vehicle-start');
   nameCell.appendChild(document.createTextNode(v.startDescription));
   nameCell.onclick = function() {
@@ -253,7 +253,7 @@ var _setStart = function(v) {
   };
 
   // Marker and popup.
-  data.vehiclesMarkers[v.id.toString() + '_start']
+  data.vehiclesMarkers[v.id.toString() + '_شروع']
     = L.circleMarker([v.start[1], v.start[0]],
                      {
                        radius: 8,
@@ -272,7 +272,7 @@ var _setStart = function(v) {
   popupDiv.appendChild(par);
   popupDiv.appendChild(deleteButton);
 
-  data.vehiclesMarkers[v.id.toString() + '_start']
+  data.vehiclesMarkers[v.id.toString() + '_شروع']
     .bindPopup(popupDiv)
     .openPopup();
 }
