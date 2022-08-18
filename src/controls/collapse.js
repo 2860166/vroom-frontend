@@ -9,7 +9,7 @@ var collapseControl = L.Control.extend({
     // Add reference to map.
     map.collapseControl = this;
     this._div = L.DomUtil.create('div', 'custom-control icon-control collapse-control collapse-control-right');
-    this._div.title = 'Collapse';
+    this._div.title = 'باز/بسته شدن';
 
     this._div.onclick = function(e) {
       L.DomEvent.stopPropagation(e);
