@@ -9,7 +9,7 @@ var clearControl = L.Control.extend({
     // Add reference to map.
     map.clearControl = this;
     this._div = L.DomUtil.create('div', 'custom-control icon-control clear-control');
-    this._div.title = 'Clear';
+    this._div.title = 'شروع مجدد';
 
     this._div.onclick = function(e) {
       L.DomEvent.stopPropagation(e);
