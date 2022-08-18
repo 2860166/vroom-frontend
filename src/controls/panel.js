@@ -33,18 +33,18 @@ var panelControl = L.Control.extend({
     this._initDiv.setAttribute('id', 'init-display');
 
     var header = document.createElement('p');
-    header.innerHTML = '<b>Add locations either by:</b>'
+    header.innerHTML = '<b>مکان ها را با یکی از دو روش زیر انتخاب کنید:</b>'
 
     var list = document.createElement('ul');
     var clickEl = document.createElement('li');
-    clickEl.innerHTML = 'clicking on the map;';
+    clickEl.innerHTML = 'کلیک روی نقشه';
     list.appendChild(clickEl);
     var uploadEl = document.createElement('li');
-    uploadEl.innerHTML = 'using a file with one address (or Lat,Lng coord) on each line.';
+    uploadEl.innerHTML = 'ورود مساله با فایل';
     list.appendChild(uploadEl);
 
     var jsonUploadEl = document.createElement('li');
-    jsonUploadEl.innerHTML = 'using a <a href="https://github.com/VROOM-Project/vroom/blob/master/docs/API.md">json-formatted</a> file.';
+    jsonUploadEl.innerHTML = '';
 
     var fileInput = document.createElement('input');
     fileInput.setAttribute('type', 'file');
