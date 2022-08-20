@@ -213,3 +213,5 @@ i.wait-icon{
 input[type='file'] {
   color: transparent;
 }
+*{direction:rtl;    
+}
