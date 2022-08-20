@@ -9,7 +9,8 @@ var initCenter = L.latLng(32.6577,51.6692);
 var initZoom = 13;
 
 var attribution = 'مسیرها توسط سرویس بهینه سازی مسیر اک تک محاسبه شذه اند</a>';
-  
+if (api.description) {
+  attribution = 'Demo solver hosted by acctech';
 }
 
 var tileLayer = L.tileLayer(api.tileLayer, {attribution: attribution});
