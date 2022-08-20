@@ -375,7 +375,7 @@ var addVehicle = function(v) {
 
     var clone = document.createElement('span');
     clone.setAttribute('class', 'clone-vehicle');
-    clone.appendChild(document.createTextNode('Clone >>'));
+    clone.appendChild(document.createTextNode('اضافه کردن ماشین >>'));
     clone.onclick = function() {
       var v_copy = JSON.parse(JSON.stringify(v));
       v_copy.id = getNextVehicleId();
