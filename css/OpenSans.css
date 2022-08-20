@@ -3,7 +3,7 @@
   font-style: italic;
   font-weight: 400;
   src: local('Open Sans Italic'),
-  url('./fonts/Iranian Sans.ttf') format('truetype');
+  url('./fonts/Iranian_Sans.ttf') format('truetype');
 }
 
 @font-face {
@@ -11,7 +11,7 @@
   font-style: normal;
   font-weight: 700;
   src: local('Open Sans Bold'),
-  url('./fonts/Iranian Sans.ttf') format('truetype');
+  url('./fonts/Iranian_Sans.ttf') format('truetype');
 }
 
 @font-face {
@@ -19,5 +19,5 @@
   font-style: normal;
   font-weight: 400;
   src: local('Open Sans Regular'),
-  url('./fonts/Iranian Sans.ttf') format('truetype');
+  url('./fonts/Iranian_Sans.ttf') format('truetype');
 }
