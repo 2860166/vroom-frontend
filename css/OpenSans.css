@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Open Sans';
+  font-family: 'Iranian Sans';
   font-style: italic;
   font-weight: 400;
   src: local('Open Sans Italic'),
@@ -7,7 +7,7 @@
 }
 
 @font-face {
-  font-family: 'Open Sans';
+  font-family: 'Iranian Sans';
   font-style: normal;
   font-weight: 700;
   src: local('Open Sans Bold'),
@@ -15,7 +15,7 @@
 }
 
 @font-face {
-  font-family: 'Open Sans';
+  font-family: 'Iranian Sans';
   font-style: normal;
   font-weight: 400;
   src: local('Open Sans Regular'),
