@@ -8,7 +8,7 @@ L.Icon.Default.imagePath = 'css/images/';
 var initCenter = L.latLng(32.6577,51.6692);
 var initZoom = 13;
 
-var attribution = 'مسیرها توسط سرویس بهینه سازی مسیر اک تک محاسبه شذه اند</a>'
+var attribution = 'مسیرها توسط سرویس بهینه سازی مسیر اک تک محاسبه شذه اند</a>';
   
 }
 
