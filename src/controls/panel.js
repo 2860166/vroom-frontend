@@ -162,11 +162,11 @@ var panelControl = L.Control.extend({
 
     // Title
     var overpassHeading = document.createElement('h2');
-    overpassHeading.innerHTML = 'Add locations';
+    overpassHeading.innerHTML = 'اضافه کردن موقعیت';
     overpassForm.appendChild(overpassHeading);
     var clickOption = document.createElement('div');
     clickOption.setAttribute('class', 'overpass-description');
-    clickOption.innerHTML = '- by clicking on the map';
+    clickOption.innerHTML = '- با کلیک روی نقشه';
     overpassForm.appendChild(clickOption);
 
     // Table containing the Formular
@@ -176,7 +176,7 @@ var panelControl = L.Control.extend({
     // Subtitle
     var overpassSubtitle = document.createElement('text');
     var tagsText = 'tag';
-    overpassSubtitle.innerHTML = '- using OpenStreetMap ' + tagsText.link('https://wiki.openstreetmap.org/wiki/Tags');
+    overpassSubtitle.innerHTML = '- استفاده از تگ OpenStreetMap ' + tagsText.link('https://wiki.openstreetmap.org/wiki/Tags');
     overpassSubtitle.setAttribute('class', 'overpass-description');
     tagTable.appendChild(overpassSubtitle);
 
@@ -225,7 +225,7 @@ var panelControl = L.Control.extend({
     // Call overpass
     submitelement.onclick = function(e) {
       if (map.getZoom() < 9) {
-        alert("The area is too large, please zoom in.");
+        alert("محدوده بسیار بزرگ است. لطفا بزرگنمایی کنید.");
         return;
       }
       L.DomEvent.stopPropagation(e);
